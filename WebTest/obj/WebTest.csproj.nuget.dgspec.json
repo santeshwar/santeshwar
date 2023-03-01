@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\santeshwar\\WebAppMvc.csproj": {}
+    "D:\\santeshwar\\WebTest\\WebTest.csproj": {}
   },
   "projects": {
-    "D:\\santeshwar\\WebAppMvc.csproj": {
+    "D:\\santeshwar\\WebTest\\WebTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\santeshwar\\WebAppMvc.csproj",
-        "projectName": "WebAppMvc",
-        "projectPath": "D:\\santeshwar\\WebAppMvc.csproj",
+        "projectUniqueName": "D:\\santeshwar\\WebTest\\WebTest.csproj",
+        "projectName": "WebTest",
+        "projectPath": "D:\\santeshwar\\WebTest\\WebTest.csproj",
         "packagesPath": "C:\\Users\\sante\\.nuget\\packages\\",
-        "outputPath": "D:\\santeshwar\\obj\\",
+        "outputPath": "D:\\santeshwar\\WebTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sante\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -51,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

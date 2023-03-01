@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\santeshwar\\WebAppMvc\\WebAppMvc.csproj",
+      "projectUniqueName": "D:\\santeshwar\\WebAppMvc.csproj",
       "projectName": "WebAppMvc",
-      "projectPath": "D:\\santeshwar\\WebAppMvc\\WebAppMvc.csproj",
+      "projectPath": "D:\\santeshwar\\WebAppMvc.csproj",
       "packagesPath": "C:\\Users\\sante\\.nuget\\packages\\",
-      "outputPath": "D:\\santeshwar\\WebAppMvc\\obj\\",
+      "outputPath": "D:\\santeshwar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sante\\AppData\\Roaming\\NuGet\\NuGet.Config",
